@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Love Story - Chapter 2B</title>
+</head>
+<body>
+    <h1>Chapter 2: Missed Opportunity?</h1>
+    <p>You walk away, but you can't stop thinking about them. Do you go back?</p>
+    <a href="chapter3c.html">Go back and say hi</a>
+    <a href="chapter3d.html">Leave and focus on your day</a>
+</body>
+</html>

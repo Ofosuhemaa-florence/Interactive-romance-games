@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Love Story - Chapter 3A</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; text-align: center; background-color: pink; padding: 20px; }
+        .choice { display: block; margin: 10px auto; padding: 10px; background: white; 
+                  text-decoration: none; color: black; border: 1px solid red; width: 60%; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <h1>💖 Chapter 3: The First Date 💖</h1>
+    <p id="storyText"></p> <!-- The text will appear here -->
+    
+    <img src="https://source.unsplash.com/featured/?romantic,date" width="80%">
+    <br><br>
+    
+    <a class="choice" href="chapter4a.html">A fancy restaurant</a>
+    <a class="choice" href="chapter4b.html">A casual coffee shop</a>
+
+    <script>
+        let text = "You and your love interest decide to go on a date. Where do you go?";
+        let i = 0;
+
+        function typeText() {
+            if (i < text.length) {
+                document.getElementById("storyText").innerHTML += text.charAt(i);
+                i++;
+                setTimeout(typeText, 50);
+            }
+        }
+
+        typeText();
+    </script>
+</body>
+</html>
